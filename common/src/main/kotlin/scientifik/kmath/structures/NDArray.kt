@@ -37,7 +37,7 @@ abstract class NDField<T>(val shape: List<Int>, val field: Field<T>) : Field<NDA
     }
 
     /**
-     * Multiply all elements by cinstant
+     * Multiply all elements by constant
      */
     override fun multiply(a: NDArray<T>, k: Double): NDArray<T> {
         checkShape(a)

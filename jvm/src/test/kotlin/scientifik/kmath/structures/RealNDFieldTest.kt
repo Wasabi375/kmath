@@ -1,7 +1,9 @@
 package scientifik.kmath.structures
 
 import org.junit.Assert.assertEquals
-import kotlin.test.Test
+import scientifik.kmath.operations.*
+import javax.print.*
+import kotlin.test.*
 
 class RealNDFieldTest {
     val array1 = real2DArray(3, 3) { i, j -> (i + j).toDouble() }
